@@ -1,0 +1,134 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<div class="about-section">
+  <h1>Welcome to Mughal Garden Club</h1>
+  <p>Come here and enjoy!!</p>
+  <p>To book tickets, Click <B>Book your tickets online<b></p>
+</div>
+<tr height="50px" width="40px" bgcolor="grey">
+<td colspan="3">
+<a href="Tickets Book.html">Book your tickets here</a>&nbsp; &nbsp;&nbsp;|
+<a href="Forms.html">Forms</a>&nbsp;&nbsp;&nbsp;|
+<a href="Contact Us.html">Contact us</a>&nbsp;&nbsp;&nbsp;|
+<a href="aboutus.html">About US</a>&nbsp;&nbsp;&nbsp;
+</tr>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="mughal garden 3.jpg" alt="G3" style="width:100%">
+      <div class="container">
+        <h2>Mughal Garden</h2>
+        <p class="title">Main place</p>
+        <p>Since 2000</p>
+        <p>G3@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="mughal garden 1.jpg" alt="G1" style="width:100%">
+      <div class="container">
+        <h2>Scenic Beauty</h2>
+        <p class="title">Lets See</p>
+        <p>This place is full of flowers!!</p>
+        <p>G1@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="mughal garden 2.jpg" alt="G2" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>Everyone must visit this place<p>
+        G2@example.com</p>
+
+  <p>
+<button class="button">
+<a href="tel:91+9312869131">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+<video width="500" height="500" controls display>
+  <source src="video.mp4" type="video/mp4">
+</body>
+</html>
